@@ -1,0 +1,5 @@
+Home: index.html
+About: about.html
+Resume: resume.html -> pdf/james_lennox_resume.pdf
+Portfolio: portfolio.html -> project lightbox
+Contact: contact.html

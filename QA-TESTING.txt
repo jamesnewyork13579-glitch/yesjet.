@@ -1,0 +1,36 @@
+JAMES LENNOX PORTFOLIO — QUALITY ASSURANCE REPORT
+Updated: 3 November 2026
+
+AUTOMATED LOCAL CHECKS COMPLETED
+[PASS] Five HTML pages exist: index.html, about.html, resume.html, portfolio.html and contact.html.
+[PASS] Every page has a unique title, a main landmark, an h1, a skip link, a viewport meta tag and a page description.
+[PASS] Internal HTML href/src references resolve to files in the project folder.
+[PASS] In-page fragment links resolve to existing element IDs.
+[PASS] No duplicate element IDs were found in the five HTML pages.
+[PASS] Images in the HTML have alternative text.
+[PASS] The contact form fields have associated labels and required/email input constraints.
+[PASS] The custom CSS parsed with zero top-level syntax errors using a local CSS parser.
+[PASS] A custom JL favicon set is included.
+[PASS] The portfolio includes a Bootstrap modal lightbox.
+[PASS] A GitHub Pages Actions deployment workflow has been added in .github/workflows/deploy.yml.
+
+IMPORTANT FUNCTIONALITY NOTES
+- Bootstrap, Bootstrap Icons and Google Fonts are loaded from external CDNs; an internet connection is needed for those assets.
+- The contact form is a demonstration only. It validates fields in the browser but does not send or store messages. The supplied email link is the actual contact method.
+- The portfolio SVGs are illustrative concept artwork, not client work or proof of completed projects.
+- James's role title and detailed responsibilities at Silverwood Industries have not been supplied, so they have not been invented.
+
+MANUAL / EXTERNAL TESTS STILL REQUIRED
+[NOT RUN] Live interaction testing in Google Chrome and Firefox. The available browser automation environment blocked local browser navigation, so this cannot honestly be marked as passed here.
+[NOT RUN] Real-device/responsive visual testing at phone (~390 px), tablet (~768 px) and desktop (~1440 px) widths.
+[NOT RUN] W3C Nu HTML validation for each HTML page: https://validator.w3.org/nu/
+[NOT RUN] W3C CSS validation: https://jigsaw.w3.org/css-validator/
+[NOT RUN] GitHub Pages deployment and live URL verification. A deployment workflow is prepared, but it must be pushed to a GitHub repository with Pages enabled.
+[OUTSTANDING — STUDENT TASK] Two genuine peer reviews using the official INFO1005 feedback form, followed by James's reflection and upload to vUWS. Feedback must not be fabricated.
+
+FINAL CONTENT CHECKS BEFORE SUBMISSION
+1. Confirm exact Diploma of Social Science qualification wording and current status.
+2. Confirm James's exact job title, dates and duties at Silverwood Industries; only employer and three years' duration are currently known.
+3. Replace or supplement concept project visuals with genuine screenshots of James's own work as the work is completed.
+4. Recheck the PDF resume against the final website.
+5. Complete the manual tests above, save evidence/screenshots, then submit the ZIP and live URL to vUWS.
